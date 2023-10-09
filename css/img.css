@@ -2,7 +2,29 @@
 
 div.c1 {
   display: flex;
-  width: 1200px;
+  width: 80%;
+  padding: 60px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 24px;
+  border: 1px solid #3b3b3b;
+  background: #121212;
+  margin: 40px;
+}
+div.c2 {
+  display: flex;
+  width: 80%;
+  padding: 60px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 24px;
+  border: 1px solid #3b3b3b;
+  background: #121212;
+  margin: 40px;
+}
+div.c3 {
+  display: flex;
+  width: 80%;
   padding: 60px;
   align-items: flex-start;
   gap: 20px;
@@ -51,5 +73,6 @@ p.p1 {
 }
 
 #img {
-  width: 50%;
+  width: 100%;
+  
 }
