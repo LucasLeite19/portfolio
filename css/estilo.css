@@ -35,7 +35,7 @@ a:hover {
   max-width: 1200px;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 35px;
   flex: 1 0 0;
 }
 
@@ -276,3 +276,54 @@ p.footer {
   font-weight: 400;
   line-height: 24px;
 }
+
+div.c1 {
+  display: flex;
+  width: 80%;
+  padding: 60px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 24px;
+  border: 1px solid #3b3b3b;
+  background: #121212;
+  margin: 40px;
+}
+
+div.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+h3 {
+  align-self: stretch;
+  color: #fff;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+h6 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+p.p1 {
+  align-self: stretch;
+  color: #b3b3b3;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
