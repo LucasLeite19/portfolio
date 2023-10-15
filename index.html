@@ -9,13 +9,15 @@
       content="Ola meu nome é Arthur, e esse e meu Portfolio."
     />
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
-
+    <script src="_javascript/funcoes.js"></script>
     <link rel="stylesheet" href="./css/img.css" />
     <link rel="stylesheet" href="./css/estilo.css" />
     <link rel="stylesheet" href="css/reposividade.css" />
     <title>Arthur Jacob</title>
   </head>
+
   <body>
+    <div id="interface">
     <header>
       <nav class="menu">
         <ul>
@@ -26,118 +28,23 @@
         </ul>
       </nav>
     </header>
-
-    <div id="interface">
+  
       <main class="forma">
-        <svg
-          class="b1"
-          ="http://www.w3.org/2000/svg"
-          width="82"
-          height="81"
-          viewBox="0 0 82 81"
-          fill="none"
-        >
-          <path
-            d="M34.0718 12C37.151 6.66667 44.849 6.66667 47.9282 12L69.1458 48.75C72.225 54.0833 68.376 60.75 62.2176 60.75H19.7824C13.624 60.75 9.77497 54.0833 12.8542 48.75L34.0718 12Z"
-            fill="url(#paint0_angular_7_440)"
-          />
-          <g style="mix-blend-mode: overlay">
-            <path
-              d="M34.0718 12C37.151 6.66667 44.849 6.66667 47.9282 12L69.1458 48.75C72.225 54.0833 68.376 60.75 62.2176 60.75H19.7824C13.624 60.75 9.77497 54.0833 12.8542 48.75L34.0718 12Z"
-              fill="#FFD84D"
-            />
-          </g>
-          <defs>
-            <radialGradient
-              id="paint0_angular_7_440"
-              cx="0"
-              cy="0"
-              r="1"
-              gradientUnits="userSpaceOnUse"
-              gradientTransform="translate(41 40.5) rotate(90) scale(40.5)"
-            >
-              <stop stop-color="#A8A8A8" />
-              <stop offset="1" stop-color="#343434" />
-            </radialGradient>
-          </defs>
-        </svg>
+        <img
+          id="img1"
+          src="imagens/graphic.png"
+          alt="algumas forma e a foto do Arthur"
+        />
 
-        <svg
-          class="b2"
-          xmlns="http://www.w3.org/2000/svg"
-          width="60"
-          height="59"
-          viewBox="0 0 60 59"
-          fill="none"
-        >
-          <rect
-            x="0.5"
-            width="59"
-            height="59"
-            rx="29.5"
-            fill="url(#paint0_angular_7_444)"
-          />
-          <g style="mix-blend-mode: overlay">
-            <rect x="0.5" width="59" height="59" rx="29.5" fill="#5EE2FF" />
-          </g>
-          <defs>
-            <radialGradient
-              id="paint0_angular_7_444"
-              cx="0"
-              cy="0"
-              r="1"
-              gradientUnits="userSpaceOnUse"
-              gradientTransform="translate(30 29.5) rotate(90) scale(29.5)"
-            >
-              <stop stop-color="#858585" />
-              <stop offset="1" stop-color="#242424" />
-            </radialGradient>
-          </defs>
-        </svg>
-        <svg
-          class="b3"
-          xmlns="http://www.w3.org/2000/svg"
-          width="60"
-          height="59"
-          viewBox="0 0 60 59"
-          fill="none"
-        >
-          <rect
-            x="0.5"
-            width="59"
-            height="59"
-            rx="8"
-            fill="url(#paint0_angular_7_446)"
-          />
-          <g style="mix-blend-mode: overlay">
-            <rect x="0.5" width="59" height="59" rx="8" fill="#9B5CFF" />
-          </g>
-          <defs>
-            <radialGradient
-              id="paint0_angular_7_446"
-              cx="0"
-              cy="0"
-              r="1"
-              gradientUnits="userSpaceOnUse"
-              gradientTransform="translate(30 29.5) rotate(90) scale(29.5)"
-            >
-              <stop stop-color="#969696" />
-              <stop offset="1" stop-color="#282828" />
-            </radialGradient>
-          </defs>
-        </svg>
-
-        <img class="b4" src="imagens/perfil.jpg" />
+        <div>
+          <h1 class="w">Olá, sou Arthur Jacob</h1>
+          <p class="div1">
+            I'm a passionate Product Designer focused on crafting remarkable
+            digital experiences. My aim is to blend functionality and aesthetics
+            to create impactful solutions
+          </p>
+        </div>
       </main>
-
-      <div>
-        <h1 class="w">Olá, sou Arthur Jacob</h1>
-        <p class="div1">
-          I'm a passionate Product Designer focused on crafting remarkable
-          digital experiences. My aim is to blend functionality and aesthetics
-          to create impactful solutions
-        </p>
-      </div>
       <div class="job">
         <h2 id="titulo01">My work</h2>
         <p class="t1">
@@ -157,15 +64,15 @@
             nossos sonhos. No Zacaza, entendemos a importância desse santu
           </p>
 
-          <button id="botao">Read case study</button>
+          <a href="https://www.zacaza.com.br/" target="_blank">
+            <button id="botao">Read case study</button></a>
+
         </div>
 
-        <a href="https://www.zacaza.com.br/" target="_blank"
-          ><img id="img" src="imagens/site.png"
-        /></a>
+        <img id="img" src="imagens/site.png" />
       </div>
 
-      <div class="c2">
+      <div class="c1">
         <div class="texto">
           <h3>Operação Logística</h3>
           <h6>2023 - Product design</h6>
@@ -179,20 +86,18 @@
             comprometidos com a excelência.
           </p>
 
-          <button id="botao">Read case study</button>
-        </div>
+          <a href="https://www.operacaologistica.com.br/" target="_blank"
+            ><button id="botao">Read case study</button> </a>
 
-        <a href="https://www.operacaologistica.com.br/" target="_blank"
-          ><img id="img" src="imagens/site.png"
-        /></a>
+        </div>
+        <img id="img" src="imagens/site.png" />
       </div>
 
-      <div class="c3">
+      <div class="c1">
         <div class="texto">
           <h3>DEPULSO</h3>
           <h6>2023 - Product design</h6>
 
-          
           <p class="p1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
             unde esse quidem optio nostrum dolorem placeat nihil quis
@@ -201,12 +106,11 @@
             aliquam praesentium? Repudiandae dolore nulla recusandae earum.
           </p>
 
-          <button id="botao">Read case study</button>
-        </div>
+          <a href="https://www.instagram.com/depulso/" target="_blank"
+            ><button id="botao">Read case study</button></a>
 
-        <a href="https://www.instagram.com/depulso/" target="_blank"
-          ><img id="img" src="imagens/site.png"
-        /></a>
+        </div>
+        <img id="img" src="imagens/site.png" />
       </div>
 
       <a href="https://github.com/arthurjd" target="_blank"
@@ -222,10 +126,9 @@
             meet users' needs. My focus on user research and usability ensures
             that each design not only looks great but also delivers an
             exceptional experience
-          </p> 
+          </p>
           <img class="a" src="imagens/1554.jpg" />
         </div>
-       
       </div>
 
       <div class="cms">
@@ -267,7 +170,7 @@
     </div>
 
     <footer id="footer">
-      <p class="footer">© 2023 LucasLeite</p>
+     <a href="https://www.linkedin.com/in/llcaldeira/" target="_blank"> <p class="footer">© 2023 Lucas Leite</p></a>
     </footer>
   </body>
 </html>
