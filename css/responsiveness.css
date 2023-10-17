@@ -8,13 +8,18 @@
       background: #000000;
       color: white;
       text-align: center;
-      margin: auto;
-     
     }
 
     #interface {
       margin: 28% 8% 8% 8%;
       padding: 2% 5% 3% 4%;
+    }
+
+    .menu ul {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      padding: 0% 0% 0% 8%;
     }
 
     .forma {
@@ -34,13 +39,13 @@
       border-radius: 24px;
       border: 1px solid #3b3b3b;
       background: #121212;
-      margin: 20px 0px 20px 10px;
+      margin: 20px 0px 20px 0px;
     }
 
-   #imgPessoa {
+    #imgPessoa {
       width: 300px;
     }
-   #site {
+    #site {
       width: 210px;
     }
 
@@ -72,13 +77,17 @@
       background: #000000;
       color: white;
       text-align: center;
-      margin: auto;
-      overflow-x: hidden;
     }
 
     #interface {
       margin: 2% 5% 2% 5%;
       padding: 8% 5% 0% 5%;
+    }
+    .menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
     }
 
     .forma {
@@ -100,7 +109,7 @@
       margin: 20px 0px 40px 0px;
     }
 
-  .you {
+    .you {
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -124,28 +133,33 @@
       width: 100%;
     }
 
-   #imgPessoa {
+    #imgPessoa {
       width: 70%;
     }
-   #site {
+    #site {
       width: 120%;
     }
   }
 
-  @media (min-width: 1025px) {
+  @media (min-width: 1025px) and (max-width: 1440px) {
     body {
       min-width: 1024px;
       max-width: 1440px;
       background: #000000;
       color: white;
       text-align: center;
-      margin: auto;
-      overflow-x: hidden;
     }
 
     #interface {
       margin: 2% 5% 2% 5%;
-      padding: 8% 5% 0% 5%;
+      padding: 8% 0% 0% 0%;
+    }
+
+    .menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
     }
 
     .forma {
@@ -173,7 +187,7 @@
 
     .conteudo {
       display: flex;
-      width: 100%;
+      width: 92%;
       padding: 3% 2% 4% 7%;
       align-items: flex-start;
       gap: 16px;
@@ -231,7 +245,7 @@
       line-height: 150%;
     }
 
-   .paragrafo4 {
+    .paragrafo4 {
       width: 97%;
       color: #ffffff;
       font-family: "Inter", sans-serif;
@@ -242,28 +256,33 @@
       line-height: 150%;
     }
 
-   #imgPessoa {
-      width: 60%;
+    #imgPessoa {
+      width: 40%;
     }
-   #site {
+    #site {
       width: 50%;
     }
   }
 
-  @media (min-width: 1441px) {
+  @media (min-width: 1441px) and (max-width: 2519px) {
     body {
       min-width: 1441px;
-      max-width: 2560px;
+      max-width: 2519px;
       background: #000000;
       color: white;
       text-align: center;
-      margin: auto;
-      overflow-x: hidden;
     }
 
     #interface {
       margin: 0 auto;
       padding: 0%;
+    }
+
+    .menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
     }
 
     .forma {
@@ -350,7 +369,7 @@
       line-height: 150%;
     }
 
-   .paragrafo4 {
+    .paragrafo4 {
       width: 97%;
       color: #ffffff;
       font-family: "Inter", sans-serif;
@@ -368,28 +387,33 @@
       margin: 0% 2% 0% 0%;
     }
 
-   #imgPessoa {
+    #imgPessoa {
       width: 22%;
     }
-   #site {
+    #site {
       width: 40%;
     }
   }
 
-  @media (min-width: 2560px) {
+  @media (min-width: 2520px) and (max-width: 3200px) {
     body {
-      min-width: 2560px;
+      min-width: 2520px;
       max-width: 3200px;
       background: #000000;
       color: white;
       text-align: center;
-      margin: auto;
-      overflow-x: hidden;
     }
 
     #interface {
-      margin: 0% 16% 0% 16% ;
+      margin: 0% 16% 0% 16%;
       padding: 0%;
+    }
+
+    .menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
     }
 
     .forma {
@@ -476,7 +500,7 @@
       line-height: 150%;
     }
 
-   .paragrafo4 {
+    .paragrafo4 {
       width: 97%;
       color: #ffffff;
       font-family: "Inter", sans-serif;
@@ -494,10 +518,10 @@
       margin: 0% 2% 0% 0%;
     }
 
-   #imgPessoa {
+    #imgPessoa {
       width: 22%;
     }
-   #site {
+    #site {
       width: 40%;
     }
   }
