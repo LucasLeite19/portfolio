@@ -9,7 +9,7 @@
       color: white;
       text-align: center;
       margin: auto;
-      overflow-x: hidden;
+     
     }
 
     #interface {
@@ -17,28 +17,15 @@
       padding: 2% 5% 3% 4%;
     }
 
-    .menu {
-    display: flex;
-    height: 59px;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    background-color: #000000;
-    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
-    cursor: pointer;
-    padding: 29% 25% 0% 3%;
-    margin: -26% 0% 0% -12%;
-    }
-
     .forma {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 48px;
-      padding: 14px;
+      padding: 14px 14px 14px 14px;
     }
 
-    div.c1 {
+    .conteudo {
       display: flex;
       flex-direction: column;
       width: 68%;
@@ -47,17 +34,17 @@
       border-radius: 24px;
       border: 1px solid #3b3b3b;
       background: #121212;
-      margin: 20px 0px 20px 0px;
+      margin: 20px 0px 20px 10px;
     }
 
-    #img1 {
-      width: 350px;
+   #imgPessoa {
+      width: 300px;
     }
-    #img {
-      width: 240px;
+   #site {
+      width: 210px;
     }
 
-    div.bloco1 {
+    .you {
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -65,7 +52,7 @@
       margin: 0% 0% 8% 0%;
     }
 
-    .cms {
+    .skills {
       display: flex;
       width: 100%;
       flex-direction: column;
@@ -73,8 +60,8 @@
       margin: 5px;
     }
 
-    div.texto {
-      width: 123%;
+    .assunto {
+      width: 100%;
     }
   }
 
@@ -94,19 +81,6 @@
       padding: 8% 5% 0% 5%;
     }
 
-    .menu {
-      display: flex;
-      height: 59px;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      background-color: #000000;
-      box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      padding: 29% 25% 0% 3%;
-      margin: -26% 0% 0% -12%;
-      }
-
     .forma {
       display: flex;
       flex-direction: column;
@@ -114,7 +88,7 @@
       gap: 48px;
     }
 
-    div.c1 {
+    .conteudo {
       display: flex;
       flex-direction: column;
       width: 66%;
@@ -126,7 +100,7 @@
       margin: 20px 0px 40px 0px;
     }
 
-    div.bloco1 {
+  .you {
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -134,7 +108,7 @@
       margin: 0% 0% 8% 0%;
     }
 
-    .cms {
+    .skills {
       display: flex;
       width: 100%;
       flex-direction: column;
@@ -146,14 +120,14 @@
       columns: 2;
     }
 
-    div.texto {
+    .assunto {
       width: 100%;
     }
 
-    #img1 {
+   #imgPessoa {
       width: 70%;
     }
-    #img {
+   #site {
       width: 120%;
     }
   }
@@ -174,48 +148,22 @@
       padding: 8% 5% 0% 5%;
     }
 
-    .menu {
-      display: flex;
-      height: 59px;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      background-color: #000000;
-      box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      padding: 27% 25% 0% 3%;
-      margin: -26% 0% 0% -12%;
-    }
-
-    .menu li {
-      border-radius: 10px;
-      border: 1px solid #3b3b3b;
-      background: #121212;
-      color: #ffffff;
-      list-style: none;
-      font-family: "Inter", sans-serif;
-      font-size: 22px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 24px;
-      padding: 10px;
-    }
-
     .forma {
       display: flex;
       flex-direction: column;
       align-items: center;
       gap: 48px;
     }
-    div.sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
-    margin: 0% 0% 2% 0%;
+
+    .sobre {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      margin: 0% 0% 2% 0%;
     }
 
-    div.job {
+    .work {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -223,9 +171,9 @@
       text-align: center;
     }
 
-    div.c1 {
+    .conteudo {
       display: flex;
-      width: 91%;
+      width: 100%;
       padding: 3% 2% 4% 7%;
       align-items: flex-start;
       gap: 16px;
@@ -235,13 +183,13 @@
       margin: 2% 0% 4% 0%;
     }
 
-    div.bloco1 {
+    .you {
       display: flex;
       align-items: center;
       gap: 2%;
     }
 
-    .cms {
+    .skills {
       display: flex;
       width: 100%;
       flex-direction: column;
@@ -253,12 +201,12 @@
       columns: 2;
     }
 
-    div.texto {
+    .assunto {
       width: 123%;
     }
 
-    div.cc {
-      width: 94%;
+    .contato {
+      width: 100%;
       padding: 2% 0%;
     }
 
@@ -266,24 +214,24 @@
       align-self: stretch;
       color: #ffffff;
       text-align: center;
-      font-family: DM Sans;
+      font-family: "DM Sans", sans-serif;
       font-size: 32px;
       font-style: normal;
       font-weight: 400;
       line-height: 150%;
     }
 
-    p.t2 {
+    .paragrafo3 {
       width: 77%;
       color: #ffffff;
-      font-family: DM Sans;
+      font-family: "DM Sans", sans-serif;
       font-size: 29px;
       font-style: normal;
       font-weight: 400;
       line-height: 150%;
     }
 
-    p.t1 {
+   .paragrafo4 {
       width: 97%;
       color: #ffffff;
       font-family: "Inter", sans-serif;
@@ -294,10 +242,10 @@
       line-height: 150%;
     }
 
-    #img1 {
+   #imgPessoa {
       width: 60%;
     }
-    #img {
+   #site {
       width: 50%;
     }
   }
@@ -314,36 +262,8 @@
     }
 
     #interface {
-      margin: 0% 6% 0% 6%;
-      padding: 5% 6% 5% 6%;
-    }
-
-    .menu {
-      display: flex;
-      top: 0%;
-      width: 60%;
-      height: 88px;
-      justify-content: center;
-      align-items: center;
-      position: fixed;
-      background-color: #000000;
-      box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
-      cursor: pointer;
-      padding: 26% 25% 0% 3%;
-      margin: -26% 0% 7% 0%;
-    }
-    .menu li {
-      border-radius: 15px;
-      border: 3px solid #3b3b3b;
-      background: #121212;
-      color: #ffffff;
-      list-style: none;
-      font-family: "Inter", sans-serif;
-      font-size: 22px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 17px;
-      padding: 10px;
+      margin: 0 auto;
+      padding: 0%;
     }
 
     .forma {
@@ -353,7 +273,7 @@
       gap: 48px;
     }
 
-    div.texto {
+    .assunto {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -362,7 +282,7 @@
       align-self: stretch;
     }
 
-    div.c1 {
+    .conteudo {
       display: flex;
       width: 87%;
       padding: 3% 2% 4% 7%;
@@ -374,14 +294,14 @@
       margin: 2% 0% 4% 0%;
     }
 
-    div.bloco1 {
+    .you {
       display: flex;
       align-items: center;
       gap: 14%;
       margin: 0% 1% 0% 12%;
     }
 
-    div.job {
+    .work {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -390,7 +310,7 @@
       margin: 0%;
     }
 
-    .cms {
+    .skills {
       display: flex;
       width: 100%;
       flex-direction: column;
@@ -400,10 +320,10 @@
 
     ul.ms {
       columns: 2;
-      margin: 0% -10% 3% -2%;
+      margin: 0% 0% 0% 0%;
     }
 
-    div.cc {
+    .contato {
       width: 86%;
       padding: 2% 4%;
       margin: 0% 2% 5% 0%;
@@ -413,24 +333,24 @@
       align-self: stretch;
       color: #ffffff;
       text-align: center;
-      font-family: DM Sans;
+      font-family: "DM Sans", sans-serif;
       font-size: 32px;
       font-style: normal;
       font-weight: 400;
       line-height: 150%;
     }
 
-    p.t2 {
+    .paragrafo3 {
       width: 76%;
       color: #ffffff;
-      font-family: DM Sans;
+      font-family: "DM Sans", sans-serif;
       font-size: 24px;
       font-style: normal;
       font-weight: 400;
       line-height: 150%;
     }
 
-    p.t1 {
+   .paragrafo4 {
       width: 97%;
       color: #ffffff;
       font-family: "Inter", sans-serif;
@@ -448,10 +368,136 @@
       margin: 0% 2% 0% 0%;
     }
 
-    #img1 {
+   #imgPessoa {
+      width: 22%;
+    }
+   #site {
       width: 40%;
     }
-    #img {
+  }
+
+  @media (min-width: 2560px) {
+    body {
+      min-width: 2560px;
+      max-width: 3200px;
+      background: #000000;
+      color: white;
+      text-align: center;
+      margin: auto;
+      overflow-x: hidden;
+    }
+
+    #interface {
+      margin: 0% 16% 0% 16% ;
+      padding: 0%;
+    }
+
+    .forma {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 48px;
+    }
+
+    .assunto {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 7%;
+      flex: 1 0 0;
+      align-self: stretch;
+    }
+
+    .conteudo {
+      display: flex;
+      width: 87%;
+      padding: 3% 2% 4% 7%;
+      align-items: flex-start;
+      gap: 16px;
+      border-radius: 30px;
+      border: 1px solid #3b3b3b;
+      background: #121212;
+      margin: 2% 0% 4% 0%;
+    }
+
+    .you {
+      display: flex;
+      align-items: center;
+      gap: 14%;
+      margin: 0% 1% 0% 12%;
+    }
+
+    .work {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      text-align: center;
+      margin: 0%;
+    }
+
+    .skills {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0% 2% 0% 0%;
+    }
+
+    ul.ms {
+      columns: 2;
+      margin: 0% 0% 0% 0%;
+    }
+
+    .contato {
+      width: 90%;
+      padding: 2% 4%;
+      margin: 2% 0% 5% 0%;
+    }
+
+    p.div1 {
+      align-self: stretch;
+      color: #ffffff;
+      text-align: center;
+      font-family: "DM Sans", sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+    .paragrafo3 {
+      width: 76%;
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+   .paragrafo4 {
+      width: 97%;
+      color: #ffffff;
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+    div.sobre {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      margin: 0% 2% 0% 0%;
+    }
+
+   #imgPessoa {
+      width: 22%;
+    }
+   #site {
       width: 40%;
     }
   }
