@@ -65,6 +65,10 @@
       margin: 5px;
     }
 
+    .espaco {
+      padding: 6%;
+    }
+
     .assunto {
       width: 100%;
     }
@@ -117,6 +121,10 @@
       margin: 0% 0% 8% 0%;
     }
 
+    .espaco {
+      padding: 6%;
+    }
+
     .skills {
       display: flex;
       width: 100%;
@@ -141,10 +149,10 @@
     }
   }
 
-  @media (min-width: 1025px) and (max-width: 1440px) {
+  @media (min-width: 1025px) and (max-width: 1240px) {
     body {
       min-width: 1024px;
-      max-width: 1440px;
+      max-width: 1240px;
       background: #000000;
       color: white;
       text-align: center;
@@ -262,6 +270,135 @@
     }
   }
 
+  @media (min-width: 1241px) and (max-width: 1440px) {
+    body {
+      min-width: 1241px;
+      max-width: 1440px;
+      background: #000000;
+      color: white;
+      text-align: center;
+    }
+
+    #interface {
+      margin: 2% 9% 2% 7%;
+      padding: 0% 0% 0% 0%;
+    }
+
+    .menu ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 35px;
+    }
+
+    .forma {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 48px;
+    }
+
+    .sobre {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 40px;
+      margin: 0% 0% 2% 0%;
+    }
+
+    .work {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      text-align: center;
+    }
+
+    .conteudo {
+      display: flex;
+      width: 97%;
+      padding: 3% 3% 3% 3%;
+      align-items: flex-start;
+      gap: 7px;
+      border-radius: 30px;
+      border: 1px solid #3b3b3b;
+      background: #121212;
+      margin: 2% 0% 4% 0%;
+    }
+
+    .you {
+      display: flex;
+      align-items: center;
+      gap: 2%;
+    }
+
+    .skills {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0% 0% 2% 0%;
+    }
+
+    ul.ms {
+      columns: 2;
+    }
+
+    .assunto {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0px;
+      flex: 1 0 0;
+      align-self: stretch;
+    }
+
+    .contato {
+      width: 100%;
+      padding: 0% 0%;
+    }
+    .espaco{
+    padding: 1%;
+    }
+
+    p.div1 {
+      align-self: stretch;
+      color: #ffffff;
+      text-align: center;
+      font-family: "DM Sans", sans-serif;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+    .paragrafo3 {
+      width: 77%;
+      color: #ffffff;
+      font-family: "DM Sans", sans-serif;
+      font-size: 29px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+    .paragrafo4 {
+      width: 97%;
+      font-family: "Inter", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+    }
+
+    #imgPessoa {
+      width: 40%;
+    }
+    #site {
+      width: 50%;
+    }
+  }
+
   @media (min-width: 1441px) and (max-width: 2519px) {
     body {
       min-width: 1441px;
@@ -272,7 +409,7 @@
     }
 
     #interface {
-      margin: 0% 3% 0% 3%;
+      margin: 0% 12% 0% 12%;
       padding: 0%;
     }
 
@@ -315,7 +452,7 @@
       display: flex;
       align-items: center;
       gap: 14%;
-      margin: 0% 1% 0% 12%;
+      margin: 0% 6% 0% 8%;
     }
 
     .work {
@@ -341,9 +478,9 @@
     }
 
     .contato {
-      width: 86%;
+      width: 100%;
       padding: 0% 0%;
-      margin: 0% 2% 5% 0%;
+      margin: 2% 0% 5% 0%;
     }
 
     p.div1 {
@@ -444,7 +581,7 @@
       display: flex;
       align-items: center;
       gap: 14%;
-      margin: 0% 1% 0% 12%;
+      margin: 0% 4% 0% 11%;
     }
 
     .work {
@@ -458,10 +595,9 @@
 
     .skills {
       display: flex;
-      width: 100%;
+      width: 97%;
       flex-direction: column;
       align-items: flex-start;
-      margin: 0% 2% 0% 0%;
     }
 
     ul.ms {
@@ -470,8 +606,7 @@
     }
 
     .contato {
-      width: 90%;
-      padding: 0% 0%;
+      width: 95%;
       margin: 2% 0% 5% 0%;
     }
 
