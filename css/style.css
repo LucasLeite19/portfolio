@@ -8,9 +8,12 @@ a {
   color: #ffffff;
 }
 
-a:hover {
+li > a:hover {
   color: #808080;
-  transition: 1s;
+  transition: 0.4s;
+  border-radius: 8px;
+  border: 1px solid #3b3b3b;
+  padding: 7px;
 }
 
 .menu {
@@ -31,8 +34,6 @@ a:hover {
 }
 
 .menu li {
-  border-radius: 8px;
-  border: 1px solid #3b3b3b;
   background: #000000;
   color: #ffffff;
   list-style: none;
@@ -41,7 +42,15 @@ a:hover {
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
-  padding: 6px;
+}
+.cor {
+  background: var(
+    --gradient-01,
+    linear-gradient(90deg, #ffe074 0.85%, #50cae4 52.93%, #9b5cff 100.85%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .forma {
@@ -49,6 +58,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   gap: 48px;
+  padding: 6%;
 }
 
 h1.titulo01 {
@@ -64,7 +74,7 @@ h1.titulo01 {
 
 p.paragrafo1 {
   align-self: stretch;
-  color: #ffffff;
+  color: #b3b3b3;
   text-align: center;
   font-family: "DM Sans", sans-serif;
   font-size: 32px;
@@ -78,7 +88,6 @@ p.paragrafo1 {
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
-  text-align: center;
 }
 
 h2#titulo01 {
@@ -92,7 +101,7 @@ h2#titulo01 {
 
 .paragrafo4 {
   width: 100%;
-  color: #ffffff;
+  color: #b3b3b3;
   font-family: "Inter", sans-serif;
   font-size: 18px;
   text-align: center;
@@ -145,10 +154,9 @@ ul.ms {
   padding: 8px;
   gap: 8px;
   align-self: stretch;
-  list-style-type: "\2714";
+  list-style-type: "\1F7E3\00A0\00A0";
   list-style-position: inside;
-  fill: #9b5cff;
-  color: #ffffff;
+  color: #b3b3b3;
 }
 
 .ms {
@@ -203,8 +211,8 @@ h4 {
 
 .contato {
   display: flex;
-  width: 90%;
-  padding: 80px 10px;
+  width: 108%;
+  padding: 0%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -213,6 +221,20 @@ h4 {
   border-radius: 24px;
   border: 1px solid #3b3b3b;
   background-color: #494949;
+}
+
+.espaco {
+  padding: 6%;
+}
+
+.forma-contato1 {
+  display: flex;
+  align-self: flex-start;
+}
+
+.forma-contato2 {
+  display: flex;
+  align-self: flex-end;
 }
 
 h2#titulo04 {
@@ -237,6 +259,7 @@ h2#titulo04 {
 
 .icone {
   display: flex;
+  justify-content: center;
   height: 48px;
   padding: 8px 17px 8px 16px;
   align-items: center;
@@ -266,7 +289,7 @@ footer#footer {
 }
 
 .conteudo {
-  display: flex;
+  display: block;
   width: 80%;
   padding: 60px;
   align-items: flex-start;
@@ -287,7 +310,6 @@ footer#footer {
 }
 
 h3 {
-  align-self: stretch;
   color: #fff;
   font-family: Inter;
   font-size: 32px;
@@ -306,11 +328,16 @@ h6 {
 }
 
 p.paragrafo2 {
-  align-self: stretch;
   color: #b3b3b3;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+
+.a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
