@@ -2,9 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2? family= Inter & family= Kaushan+Script & family= Permanente+Marker & display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,200&family=Inter&family=Kaushan+Script&family=Permanent+Marker&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,200&family=Inter&family=Kaushan+Script&family=Permanent+Marker&display=swap');
 
 * {
-  user-select: none; 
+  user-select: none;
 }
 
 a {
@@ -205,10 +206,9 @@ h4 {
 .Projeito {
   border-radius: 8px;
   color: #ffffff;
-  font: normal 600 16px Outfit;
+  font: normal 600 16px "Outfit";
   line-height: 24px;
   cursor: pointer;
-  border-radius: 8px;
   border: 1px solid #3b3b3b;
   background-color: #0a0a0a;
 }
